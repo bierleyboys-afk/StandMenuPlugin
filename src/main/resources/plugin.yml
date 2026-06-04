@@ -1,0 +1,8 @@
+name: StandMenu
+main: com.chaosmc.standmenu.StandMenuPlugin
+version: 1.0.0
+api-version: '1.21'
+softdepend:
+  - DeluxeMenus
+
+commands: {}

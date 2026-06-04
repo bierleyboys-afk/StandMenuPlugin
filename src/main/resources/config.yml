@@ -1,0 +1,15 @@
+# StandMenu configuration
+# Block type that triggers the menu when stood upon
+trigger-block: EMERALD_BLOCK
+
+# The DeluxeMenus open command template. Use %menu% and %player%.
+# Example: to open menu named 'main' for a player via console: dm open main <player>
+open-command: "dm open %menu% %player%"
+menu-name: "main"
+
+# Teleport location applied when player ESC-closes the menu
+teleport:
+  world: world
+  x: 0.5
+  y: 64.0
+  z: 0.5
